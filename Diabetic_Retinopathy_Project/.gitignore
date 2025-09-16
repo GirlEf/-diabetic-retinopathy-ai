@@ -1,0 +1,25 @@
+# Dataset folders
+data/raw/
+DR_Dataset/
+*.dcm
+*.npy
+
+# Large files
+models/checkpoints/
+models/outputs/
+*.pth
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Results
+results/logs/
+results/figures/
+wandb/

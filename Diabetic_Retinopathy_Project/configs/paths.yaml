@@ -1,0 +1,21 @@
+data:
+  raw: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/raw"
+  processed: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/processed"
+  interim: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/interim"
+  manifest: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/manifest.csv"
+
+dataset:
+  fundus: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/raw/fundus"
+  oct: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/raw/oct"
+  flio: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/raw/flio"
+  labels: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/data/raw/metadata.csv"
+
+models:
+  checkpoints: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/models/checkpoints"
+  pretrained: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/models/pretrained"
+  outputs: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/models/outputs"
+
+results:
+  logs: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/results/logs"
+  figures: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/results/figures"
+  metrics: "C:/Users/tw0271/Documents/Diabetic_Retinopathy_Project/Diabetic_Retinopathy_Project/results/metrics"

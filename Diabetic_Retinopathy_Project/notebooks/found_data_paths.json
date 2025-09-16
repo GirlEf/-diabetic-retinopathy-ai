@@ -1,0 +1,19 @@
+{
+  "manifest_files": [
+    "..\\data\\manifest.csv",
+    "..\\data\\manifest_with_labels.csv",
+    "../..\\Diabetic_Retinopathy_Project\\data\\manifest.csv",
+    "../..\\Diabetic_Retinopathy_Project\\data\\manifest_with_labels.csv"
+  ],
+  "ssl_dirs": [
+    "./features/ssl_extracted/",
+    "./features/"
+  ],
+  "csv_files": [
+    ".\\test.csv",
+    ".\\train.csv",
+    ".\\val.csv",
+    ".\\results\\preprocessing\\memory_usage.csv"
+  ],
+  "working_directory": "c:\\Users\\tw0271\\Documents\\Diabetic_Retinopathy_Project\\Diabetic_Retinopathy_Project\\notebooks"
+}

@@ -1,0 +1,23 @@
+training:
+  batch_size: 16
+  learning_rate: 1e-4
+  epochs: 100
+  patience: 10
+  
+ssl:
+  mask_ratio: 0.75
+  ssl_epochs: 50
+  ssl_lr: 5e-4
+  
+model:
+  fundus_encoder: "retfound"
+  oct_encoder: "octcube"
+  feature_dim: 768
+  num_classes: 5
+  dropout: 0.1
+  
+data:
+  image_size: [512, 512]
+  oct_size: [256, 256, 32]
+  flio_size: [256, 256]
+  augmentation_prob: 0.5

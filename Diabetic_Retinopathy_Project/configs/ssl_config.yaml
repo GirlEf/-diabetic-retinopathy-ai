@@ -1,0 +1,47 @@
+channels:
+  flio: 2
+  fundus: 3
+  oct: 1
+data:
+  augmentation_prob: 0.5
+  flio_size:
+  - 256
+  - 256
+  image_size:
+  - 512
+  - 512
+  oct_size:
+  - 256
+  - 256
+  - 32
+data_dir: C:\Users\tw0271\Documents\Diabetic_Retinopathy_Project\Diabetic_Retinopathy_Project\data
+image_sizes:
+  flio: 256
+  fundus: 224
+  oct: 256
+manifest_path: C:\Users\tw0271\Documents\Diabetic_Retinopathy_Project\Diabetic_Retinopathy_Project\data\manifest_with_labels.csv
+modalities:
+- fundus
+- oct
+- flio
+model:
+  dropout: 0.1
+  feature_dim: 768
+  fundus_encoder: retfound
+  num_classes: 5
+  oct_encoder: octcube
+split_ratio:
+  train: 0.8
+  val: 0.2
+ssl:
+  mask_ratio: 0.75
+  ssl_epochs: 50
+  ssl_lr: 5e-4
+training:
+  batch_size: 16
+  epochs: 100
+  learning_rate: 1e-4
+  patience: 10
+transforms:
+  train: ssl
+  val: ssl
