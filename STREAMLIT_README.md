@@ -199,7 +199,7 @@ Diabetic_Retinopathy_Project/
 
 ### **3. Repository Setup Commands**
 
-```bash
+```powershell
 # Navigate to your project directory
 cd Diabetic_Retinopathy_Project
 
@@ -213,7 +213,7 @@ git add .
 git commit -m "Initial commit: Multi-modal DR classification system with SSL and explainability"
 
 # Add remote repository (replace with your actual repo URL)
-git remote add origin https://github.com/GirlEf/diabetic-retinopathy-ai.git
+git remote set-url origin https://github.com/GirlEf/-diabetic-retinopathy-ai.git
 
 # Push to GitHub
 git push -u origin main
